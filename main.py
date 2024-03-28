@@ -64,6 +64,7 @@ import sys
 
 app = QtWidgets.QApplication([])
 win = uic.loadUi("gui.ui")  # расположение вашего файла .ui
-
+print("gui.ui")
+#  просто  так
 win.show()
 sys.exit(app.exec())
